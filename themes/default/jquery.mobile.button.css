@@ -30,12 +30,12 @@
 .ui-bar .ui-btn-icon-bottom .ui-btn-inner { padding-bottom: 27px; }
 
 /*btn icon positioning*/
-/* Changed buttons to align right to left (Hebrew support) */
+/* [REVERTED] Changed buttons to align right to left (Hebrew support) */
 .ui-btn-icon-notext .ui-icon { display: block; }
 .ui-btn-icon-left .ui-icon, .ui-btn-icon-right .ui-icon { position: absolute; top: 50%; margin-top: -9px; }
 .ui-btn-icon-top .ui-icon, .ui-btn-icon-bottom .ui-icon { position: absolute; left: 50%;  margin-left: -9px; }
-.ui-btn-icon-left .ui-icon { right: 10px; }
-.ui-btn-icon-right .ui-icon {left: 10px; }
+.ui-btn-icon-left .ui-icon { left: 10px; }
+.ui-btn-icon-right .ui-icon {right: 10px; }
 .ui-header .ui-btn-icon-left .ui-icon,
 .ui-footer .ui-btn-icon-left .ui-icon,
 .ui-bar .ui-btn-icon-left .ui-icon { left: 4px; }
